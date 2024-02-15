@@ -1,0 +1,72 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: COMSOC Website
+email: s.j.rey@uva.nl
+description: >- # this means to ignore newlines until "baseurl:"
+  Personal page of Simon Rey, Senior Scientific Programmer in Computational Social Choice at
+  the Institute for Language Logic and Computation (ILLC), Amsterdam.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://simonrey.fr/" # the base hostname & protocol for your site, e.g. http://example.com
+
+full_name: Simon Rey
+email_address: s.j.rey@uva.nl
+position_title: Senior Scientific Programmer
+address: |
+  Office L6.36
+  LAB42, Science Park
+  Amsterdam
+  The Netherlands
+github_homepage: "https://github.com/Simon-Rey"
+scholar_homepage: "https://scholar.google.com/citations?user=sMgOkFwAAAAJ&hl=fr&oi=sra"
+dblp_homepage: "https://dblp.uni-trier.de/pid/224/0177.html"
+orcid_homepage: "https://orcid.org/0000-0002-5170-0387"
+
+# Build settings
+theme: minima
+#plugins:
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  input: GFM
+  auto_ids:       true
+  toc_levels:     1..3
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+

@@ -1,0 +1,86 @@
+:root {
+	--color-gray:#5D5D5D;
+	--color-orange:#FF8000;
+}
+
+html {
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#title-wrap {
+    background: var(--color-gray);
+    text-align: right;
+    padding: 40px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    column-gap: 30px;
+    justify-items: end;
+    align-items: center;
+}
+
+
+#title-wrap img {
+    width: 80%;
+}
+
+#title-wrap h1 {
+    color: var(--color-orange);
+    margin: 0;
+    font-size: 350%;
+    text-shadow: darkslategray 1px 1px;
+}
+
+@media screen and (max-width: 1000px) {
+    #title-wrap h1 {
+        font-size: 200%;
+    }
+}
+
+#content {
+    padding: 0 40px;
+}
+
+p {
+    font-size: 120%;
+}
+
+h2 {
+    color: var(--color-orange);
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-orange);
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%:
+}
+
+.programme-line:not(:first-child) th, .programme-line:not(:first-child) td {
+    padding-top: 20px;
+}
+
+.programme-abstract th, .programme-abstract td {
+    padding-top: 5px;
+}
+
+th {
+    padding-right: 10px;
+}
+
+th, td {
+    min-width: 130px;
+    font-size: 115%;
+}
+
+h2  {
+
+}

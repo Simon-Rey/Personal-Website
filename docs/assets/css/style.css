@@ -1,0 +1,462 @@
+:root {
+	--color-gray:#5D5D5D;
+	--color-orange:#FF8000;
+}
+
+/* ================
+Responsive behavior
+================ */
+
+@font-face {
+	font-family: "newAlphabet";
+	src: url('/assets/NewAlphabet.ttf');
+}
+
+@media screen and (max-width: 700px) {
+	#portrait {display: none;}
+	.publicationDiams {display: none;}
+}
+
+@media screen and (max-width: 1000px) {
+	.menu a {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 5px 0px;
+	}
+	#banner {
+		padding: 10px 20px;
+	}
+	html {
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	main {
+		padding-top: 10px;
+		padding-right: 20px;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+	#newscontent {
+		padding: 10px 20px;
+	}
+	.publicationText {
+		padding: 5px 5px;
+	}
+	.publicationButtons div {
+		display: block;
+		margin: 5px 0;
+	}
+}
+
+.publicationButtons {
+	display: inline-block;
+}
+
+@media screen and (min-width: 1000px) {
+	.menu a {
+		float: left;
+		margin: auto;
+		padding: 14px 0px;
+		width: 16.6666666%;
+	}
+	#banner {
+		padding: 20px 50px;
+	}
+	html {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	p {
+		font-size: 120%;
+	}
+	main {
+		padding-top: 20px;
+		padding-right: 50px;
+		padding-left: 50px;
+		padding-bottom: 50px;
+	}
+	#newsbox {
+		display: flex;
+	}
+	#newscol {
+		border-left: 2px solid var(--color-gray);
+		flex: 25%;
+	}
+	#newscontent {
+		flex: 70%;
+		padding: 20px 50px;
+	}
+	.publicationText {
+		padding: 5px 10px;
+	}
+	.publicationButtons {
+		flex: 240px;
+		flex-shrink: 0;
+	}
+	.publicationButtons div {
+		float: left;
+		margin: 0px 5px;
+	}
+}
+
+/* =============
+Main page layout 
+============= */
+
+html {
+	margin: 0;
+	background: #F0F0F0;
+}
+
+body {
+	margin: 0;
+}
+
+#banner {
+	background: var(--color-gray);
+	color: white;
+}
+
+main {
+	background: white;
+}
+
+/* =============================
+Header with the name and logo 
+============================= */
+
+.detail-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.name {
+	font-weight: bold;
+	color: white;
+	font-size: 380%;
+	font-family: "newAlphabet", sans-serif;
+}
+
+#portrait {
+	border-radius: 20px;
+}
+
+.detailPortrait {
+	display: flex;
+}
+
+.detailPortrait img {
+	display: block;
+	margin-left: 30px;
+}
+
+.detailPortrait div {
+	display: table;
+	margin-left: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.detailPortrait ul {
+	text-align: left;
+	list-style-type: none;
+	padding: 0;
+}
+
+.detailPortrait p {
+	text-align: left;
+}
+
+/* ===
+Titles 
+=== */
+
+h1 {
+	text-align: center;
+	color: var(--color-gray);
+	margin-top: 0;
+}
+
+h1 a {
+	text-decoration: none;
+	color: var(--color-gray);
+}
+
+h2 {
+	text-align: left;
+	color: var(--color-gray);
+	padding-top: 5px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 130%;
+	border-top: 3px solid var(--color-orange);
+}
+
+h2 a {
+	text-decoration: none;
+	color: var(--color-gray);
+}
+
+h3 {
+	color: var(--color-gray);
+	text-align: center;
+	font-size: 150%;
+}
+
+/* ========
+Header menu 
+======== */
+
+.menu-wrap {
+	background: var(--color-gray);
+	width: 100%;
+	color: white;
+	margin-top: 20px;
+	border-top: 7px solid var(--color-orange);
+	border-bottom: 7px solid var(--color-orange);
+    display: inline-block;
+}
+
+.menu {
+	width: 100%;
+	background-color: var(--color-gray);
+	overflow: auto;
+	text-align: center;
+	margin: 0px;
+}
+
+/* Navigation links */
+.menu a {
+	/*float: left;*/
+	transition:all linear 0.1s;
+	text-decoration: none;
+	color:white;
+	font-size: 130%;
+	text-align: center;
+}
+
+.menu a:hover {
+	color: white;
+	background:var(--color-orange);
+}
+
+/* ========
+Footer menu
+======== */
+
+.footer-wrap {
+	background: var(--color-gray);
+	width: 100%;
+	color: white;
+	margin: 0px;
+    display: inline-block;
+    text-align: center;
+	border-top: 7px solid var(--color-gray);
+	border-bottom: 7px solid var(--color-gray);
+}
+
+.footer {
+	padding: 0;
+	margin: 0;
+}
+
+.footer > li {
+	display: inline-block;
+	position: relative;
+}
+
+.footer > li > a {
+	padding: 5px 50px;
+	display:inline-block;
+	text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+	margin: 0;
+}
+
+/* ===========
+Hyperref links 
+=========== */
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: var(--color-orange);
+}
+
+#newscol h2 {
+	border: none;
+	font-size: 130%;
+	color: white;
+	background: var(--color-gray);
+	padding:10px 40px;
+	margin: 0;
+	box-shadow: none;
+}
+
+#newscol p {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
+}
+
+#news {
+	text-align: center;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 15px;
+	padding-bottom: 0px;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-top: 3px solid var(--color-orange);
+}
+
+#news h3 {
+	color: var(--color-gray);
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	font-size: 120%;
+}
+
+strong {
+	text-decoration: none;
+	color: var(--color-orange);
+	font-style: none;
+	font-weight: normal;
+}
+
+.publicationsBox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.publicationDiams {
+	padding-right: 10px; 
+	font-size: 120%;
+}
+
+.publicationText {
+}
+
+.publicationText p {
+	margin: 0;
+	text-align: justify;
+}
+
+.publicationComment {
+	font-size: 90%;
+	font-style: italic;
+}
+
+#pdfButton {
+	background-color: #33A70D;
+	border-radius: 4px;
+	padding: 6px;
+	color: white;
+	text-decoration: none;
+}
+
+#pdfButton a:hover {
+	color: white;
+}
+
+#arxivButton {
+	background-color: #b31b1b;
+	border-radius: 4px;
+	padding: 6px;
+	color: white;
+	text-decoration: none;
+}
+
+#arxivButton a:hover {
+	color: white;
+}
+
+#publisherButton {
+	background-color: #039be5;
+	border-radius: 4px;
+	padding: 6px;
+	color: white;
+	text-decoration: none;
+}
+
+#publisherButton a:hover {
+	color: white;
+}
+
+.talkBox {
+	margin-top: 20px;
+}
+
+.talkBox h2 {
+	font-size: 115%;
+}
+
+.talkBox p {
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.talkBox table {
+	width: 100%;
+}
+
+.talkBox p {
+	line-height: 1.5;
+}
+
+.cvTable {
+	width: 100%;
+}
+
+.cvTable strong {
+	margin-right: 5px;
+}
+
+.cvTable p {
+	margin: 0;
+}
+
+.educYearCell {
+	width: 140px;
+}
+
+.educYearCell p {
+	text-align: center;
+}
+
+.changeFont-wrap {
+	text-align: center;
+}
+
+.changeFont-wrap form {
+	display: inline;
+}
+
+.changeFont-button input {
+	display: inline;
+	vertical-align: middle;
+}
+
+.videoWrapper { 
+	position: relative;
+	padding-bottom: 50.625%;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

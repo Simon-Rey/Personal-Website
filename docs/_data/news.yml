@@ -1,0 +1,38 @@
+- title: The new PrefLib is up
+  publication_date: 2021-07-21
+  text: >
+    The new version of PrefLib is now online. You can have a look at it there: 
+    <a href="https://www.preflib.org/">https://www.preflib.org/</a>. If you encounter any issue,
+    let me know :)
+
+- title: New PrefLib-Tools
+  publication_date: 2022-05-30
+  text: >
+    The new version of the PrefLib-Tools, a python package to deal with instances taken from
+    <a href="https://www.preflib.org/">PrefLib.org</a>, is available. I also put together a clean 
+    documentation for them.
+    <a href="https://github.com/PrefLib/PrefLib-Tools">GitHub</a>
+    <a href="https://preflib.github.io/preflibtools/">Documentation</a>
+
+- title: Survey on Indivisible Particiaptory Budgeting
+  publication_date: 2023-03-02
+  text: >
+    There is a cool survey on indivisible PB that came out in March, check it out:
+    <a href="https://arxiv.org/abs/2303.00621">arxiv.org/abs/2303.00621</a>!
+    I'll be happy to hear any feedback :)
+
+- title: Introducing... The Pabutools
+  publication_date: 2023-10-02
+  text: >
+    With Markus Utke we entirely re-wrote the pabutools, the standard Python library to work with
+    participatory budgeting elections. Have a look and provide feedback!
+    <a href="https://github.com/pbvoting/pabutools">GitHub</a>
+    <a href="https://pypi.org/project/pabutools/">PyPi project</a>
+
+- title: Et Voilà!
+  publication_date: 2023-10-02
+  text: >
+    I successfully defended my PhD thesis on the 13th of October. The past four years found a nice
+    conclusion. If you are interested, you can <a href="/static/publications/Rey23.pdf">read 
+    the thesis here:</a>
+    <a href="/static/publications/Rey23.pdf">PDF File</a>

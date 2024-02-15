@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Person",
+        "name": "Simon Rey",
+        "familyName": "Rey",
+        "givenName": "Simon",
+        "url": "http://www.simonrey.fr",
+        "jobTitle": "Senior Scientific Programmer",
+        "worksFor": "http://www.illc.uva.nl/",
+        "gender": "http://schema.org/Male",
+        "image": "http://www.simonrey.fr/static/portrait.JPG",
+        "sameAs": [
+            "https://scholar.google.com/citations?user=sMgOkFwAAAAJ&hl=fr&oi=sra",
+            "https://github.com/Simon-Rey",
+            "https://dblp.uni-trier.de/pers/hd/r/Rey:Simon",
+            "https://orcid.org/0000-0002-5170-0387"
+        ]
+    }
+    </script>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/fonts.css"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+    {% if font == "na" %}
+        <style>
+            html {font-family: "newAlphabet", sans-serif;}
+        </style>
+    {% else %}
+        <style>
+            html {font-family: Roboto, sans-serif;}
+        </style>
+    {% endif %}
+</head>
+
+<body>
+
+<div id='header'>
+	<div id='banner'>
+		<div class='detail-wrap'>
+			<div class='name'>
+				<a href="{{ '/' | relative_url }}" title="Link to main page">{{ site.full_name }}</a>
+			</div>
+			<div class="detailPortrait">
+				<div>
+					<p style="font-size: 120%;">{{ site.position_title }}</a></p>
+					<p>{{ site.address | newline_to_br }}</p>
+					<p style="font-style: italic;">{{ site.email_address }}</p>
+				</div>
+				<img src="{{ site.baseurl }}/assets/portrait.JPG" height="220px" id='portrait' alt="Portrait of Simon Rey"/>
+			</div>
+		</div>
+		<div class="menu-wrap">
+			<nav class="menu">
+				<a href="{{ '/' | relative_url }}" title="Link to the main page">Home</a>
+				<a href="{{ 'publications' | relative_url }}" title="Link to the publication page">Publications</a>
+				<a href="{{ 'talks' | relative_url }}" title="Link to the talks page">Talks</a>
+				<a href="{{ 'teaching' | relative_url }}" title="Link to the teaching page">Teaching</a>
+				<a href="{{ 'other' | relative_url }}" title="Link to the page for other stuff">Other</a>
+				<a href="{{ 'cv' | relative_url }}" title="Link to the CV page">C.V.</a>
+			</nav>
+		</div>
+	</div>
+</div>
+
+<main {% if page.main_style %} style="{{ page.main_style }}"{% endif %}>
+	{{ content }}
+</main>
+
+<div class="footer-wrap">
+	<ul class="footer">
+	{% if site.github_homepage %}
+		<li>
+			<a href="{{ site.github_homepage }}" title="Link to Simon Rey's GitHub page">
+				<div style="display: flex; align-items: center;">
+						<img src="{{ site.baseurl }}/assets/gitHubLogo.png" style="height: 1em;"
+						alt="GitHub Logo">
+					 	<span> &nbsp; GitHub </span>
+				</div>
+			</a>
+		</li>
+	{% endif %}
+
+	{% if site.scholar_homepage %}
+		<li>
+			<a href="{{ site.scholar_homepage }}" title="Link to Simon Rey's Google Scholar page">
+				<div style="display: flex; align-items: center;">
+						<img src="{{ site.baseurl }}/assets/googleScholarLogo.png" style="height: 1em;"
+						alt="Google Scholar Logo">
+					 	<span> &nbsp; Google Scholar </span>
+				</div>
+			</a>
+		</li>
+	{% endif %}
+
+	{% if site.dblp_homepage %}
+		<li>
+			<a href="{{ site.dblp_homepage }}" title="Link to Simon Rey's DBLP page">
+				<div style="display: flex; align-items: center;">
+						<img src="{{ site.baseurl }}/assets/dblpLogo.png" style="height: 1em;"
+						alt="DBLP Logo">
+					 	<span> &nbsp; DBLP </span>
+				</div>
+			</a>
+		</li>
+	{% endif %}
+
+	{% if site.orcid_homepage %}
+		<li>
+			<a href="{{ site.orcid_homepage }}" title="Link to Simon Rey's Orcid page">
+				<div style="display: flex; align-items: center;">
+						<img src="{{ site.baseurl }}/assets/orcidLogo.png" style="height: 1em;"
+						alt="Orcid Logo">
+					 	<span> &nbsp; Orcid </span>
+				</div>
+			</a>
+		</li>
+	{% endif %}
+	</ul>
+</div>
+
+</body>
+</html>
