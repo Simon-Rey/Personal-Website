@@ -7,7 +7,7 @@ title: CV | Simon Rey
 
 The full CV in PDF can be downloaded below.
 
-[PDF File](https://simonrey.fr/static/CV_REY_Simon.pdf)
+[PDF File]({{ site.baseurl }}/assets/CV_REY_Simon.pdf)
 
 ## Education
 

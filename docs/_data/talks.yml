@@ -6,7 +6,7 @@
     I began by highlighting recent developments in PrefLib. Subsequently, I provided an overview
     of the general ComSoC ecosystem, with a particular emphasis on newly created tools. Finally,
     I proposed a general discussion on organizing and valorizing such tools.
-  pdf_file: "https://simonrey.fr/static/talks/ComSoC_Tools.pdf"
+  pdf_file: "/assets/talks/ComSoC_Tools.pdf"
 
 - title: "Fairness in Participatory Budgeting via Equality of Resources"
   event: "CMSS Summer Workshop"
@@ -18,7 +18,7 @@
     individual voters. This is in contrast to earlier proposals that are based on specific 
     assumptions regarding the satisfaction of voters with a given budget allocation. We analyze 
     these new principles in axiomatic, algorithmic, and experimental terms.
-  pdf_file: "https://simonrey.fr/static/talks/Auckland2022.pdf"
+  pdf_file: "/assets/talks/Auckland2022.pdf"
 
 - title: "Let’s Agree to Agree: Targeting Consensus for Incomplete Preferences through Majority Dynamics"
   event: "Oxford Local Seminar"
@@ -33,14 +33,14 @@
     consensus; yet, simulation experiments indicate that the damage is often mild. We also
     examine scenarios where the chair of the decision process can control the existence
     (or the identity) of consensus, by determining the order in which the issues are discussed.
-  pdf_file: "https://simonrey.fr/static/talks/Oxford2022.pdf"
+  pdf_file: "/assets/talks/Oxford2022.pdf"
 
 - title: "Mechanism Design for Participatory Budgeting"
   event: "EUMAS 2022 - PhD Day"
   date: "Sept. 14, 2022"
   description: >
     When seeking for suitable mechanisms for participatory budgeting (PB), one has to decide on which criteria to assess them. In this paper, I present several appealing criteria for PB mechanisms. I briefly introduce each of them and discuss their impact on the design of PB mechanisms.
-  pdf_file: "https://simonrey.fr/static/talks/EUMAS2022.pdf"
+  pdf_file: "/assets/talks/EUMAS2022.pdf"
 
 - title: "Let’s Agree to Agree: Targeting Consensus for Incomplete Preferences through Majority Dynamics"
   event: "IJCAI 2022"
@@ -54,7 +54,7 @@
     indicate that the damage is often mild. We also examine scenarios where the chair of the 
     decision process can control the existence (or the identity) of consensus, by determining 
     the order in which the issues are discussed.
-  pdf_file: "https://simonrey.fr/static/talks/IJCAI2022.pdf"
+  pdf_file: "/assets/talks/IJCAI2022.pdf"
 
 - title: "Equity of Resources for Participatory Budgeting"
   event: "2022 SSCW Meeting"
@@ -66,7 +66,7 @@
     to earlier proposals that instead are based on specific assumptions about the satisfaction
     voters with a given budget allocation. We analyze these new principles in axiomatic, 
     algorithmic, and experimental terms.
-  pdf_file: "https://simonrey.fr/static/talks/SSCW22_Share.pdf"
+  pdf_file: "/assets/talks/SSCW22_Share.pdf"
 
 - title: "Fair Position Assignment"
   event: "2022 SSCW Meeting - Computational and Topological Social Choice Workshop"
@@ -84,7 +84,7 @@
     dichotomy conjecture for the parameterized graph embedding problem. Thus, we focus on tree-like 
     graphs, and prove fixed-parameter tractability for all criteria but local proportionality, 
     using a set of parameters that are, under some assumptions, reasonably small.
-  pdf_file: "https://simonrey.fr/static/talks/SSCW22_LocalFairPos.pdf"
+  pdf_file: "/assets/talks/SSCW22_LocalFairPos.pdf"
 
 - title: "Mechanism Design for Participatory Budgeting"
   event: "AAMAS 2022 - Doctoral Consortium"
@@ -93,7 +93,7 @@
     When seeking for suitable mechanisms for participatory budgeting, one has to decide on which 
     criteria to assess them. In this talk, I briefly present several appealing criteria for PB 
     mechanisms. I introduce each of them and discuss their impact on the design of PB mechanisms.
-  pdf_file: "https://simonrey.fr/static/talks/AAMAS22_DC.pdf"
+  pdf_file: "/assets/talks/AAMAS22_DC.pdf"
 
 - title: "Effort-Based Fairness for Participatory Budgeting"
   event: "Oberseminar Düsselorf Computational Social Choice Group"
@@ -106,7 +106,7 @@
     to earlier proposals that instead are based on specific assumptions about the satisfaction
     voters with a given budget allocation. We analyze these new principles in axiomatic and
     algorithmic terms.
-  pdf_file: "https://simonrey.fr/static/talks/Duesseldorf_ShareForPB.pdf"
+  pdf_file: "/assets/talks/Duesseldorf_ShareForPB.pdf"
 
 - title: "Non-Standard Models for Participatory Budgeting"
   event: "Workshop Celebrating Sirin Botan's Defense"
@@ -123,7 +123,7 @@
     a look at what changes when the process is repeated over several years. Finally, we will have
     a look at how to include additional constraints on top of the budget limit: quotas over 
     categories of projects, dependencies between the projects, ...
-  pdf_file: "https://simonrey.fr/static/talks/SirinWorkshop_NonStandardPB.pdf"
+  pdf_file: "/assets/talks/SirinWorkshop_NonStandardPB.pdf"
 
 - title: "Mechanism Design for Participatory Budgeting"
   event: "ADT 2021 - PhD Day"
@@ -133,7 +133,7 @@
     which criteria to assess them. In this talk, I briefly present several appealing criteria 
     for PB mechanisms. I introduce each of them and discuss their impact on the design of PB
     mechanisms.
-  pdf_file: "https://simonrey.fr/static/talks/ADT21_PhDDay.pdf"
+  pdf_file: "/assets/talks/ADT21_PhDDay.pdf"
 
 - title: "Improving the Buurtbudget: Can Mathematics and Computer Science Help?"
   event: "Science Park Open Dag"
@@ -146,7 +146,7 @@
     when it comes to making a decision based on the ballots that have been submitted. During
     this talk, we will see why some natural procedures to determine the winning projects
     suffer some drawbacks and how to circumvent those drawbacks.
-  pdf_file: "https://simonrey.fr/static/talks/PB_OpenDag.pdf"
+  pdf_file: "/assets/talks/PB_OpenDag.pdf"
 
 - title: "Designing Participatory Budgeting Mechanisms Grounded in Judgment Aggregation"
   event: "8th International Workshop on Computational Social Choice"
@@ -155,7 +155,7 @@
     This talk presents the paper "Designing Participatory Budgeting Mechanisms Grounded in Judgment
     Aggregation" that was published at KR-2020. We prepared a lightened version for COMSOC-2021, 
     focusing more on the COMSOC parts of this work (compared to the KR version).
-  pdf_file: "https://simonrey.fr/static/talks/COMSOC21_PBwithJA.pdf"
+  pdf_file: "/assets/talks/COMSOC21_PBwithJA.pdf"
 
 - title: "A Selective Literature Review of the Truth Tracking Approach in Computational Social Choice"
   event: "Computational Social Choice Seminars"
@@ -166,7 +166,7 @@
     objectively best outcome for the society, given noisy votes. I will discuss the general 
     framework as well as some selected recent contributions, reviewing the main concepts used 
     in the literature.
-  pdf_file: "https://simonrey.fr/static/talks/Truth_ComSoCSeminar.pdf"
+  pdf_file: "/assets/talks/Truth_ComSoCSeminar.pdf"
 
 - title: "Designing Participatory Budgeting Mechanisms Grounded in Judgment Aggregation"
   event: "17th International Conference on Principles of Knowledge Representation and Reasoning"
@@ -180,7 +180,7 @@
     familiar setting of participatory budgeting with additional constraints, namely dependencies 
     between projects and quotas regarding different types of projects. We analyze the rules 
     obtained both in algorithmic and in axiomatic terms.
-  pdf_file: "https://simonrey.fr/static/talks/KR20_PBwithJA.pdf"
+  pdf_file: "/assets/talks/KR20_PBwithJA.pdf"
 
 - title: "A Review of the Computational Social Choice Literature on Participatory Budgeting"
   event: "Computational Social Choice Seminars"
@@ -190,7 +190,7 @@
     in Brazil, it is now viewed as a critical topic to improve the democratic process. In this
     talk I introduced the concept of Participatory Budgeting and gave an overview of the related
     literature in the field of Computational Social Choice.
-  pdf_file: "https://simonrey.fr/static/talks/PB%20_ComSoCSeminar.pdf"
+  pdf_file: "/assets/talks/PB%20_ComSoCSeminar.pdf"
 
 - title: "Almost Group Envy-free Allocation of Indivisible Goods and Chores"
   event: "Computational Social Choice Seminars"
@@ -204,7 +204,7 @@
     fairness concepts guarantee the existence of a fair allocation under which preference domain. 
     For two natural classes of additive utilities, we designed polynomial-time algorithms to
     compute a GEF1 allocation.
-  pdf_file: "https://simonrey.fr/static/talks/GEF_ComSoCSeminar.pdf"
+  pdf_file: "/assets/talks/GEF_ComSoCSeminar.pdf"
 
 - title: "Credulous Acceptability, Poison Game and Modal Logic"
   event: "SYSMICS 2019"
@@ -213,4 +213,4 @@
     This is a presentation of the work we did with Davide Grossi when I was visiting him in 
     Groningen. It was presented during the Syntax Meets Semantics conference in Amsterdam. 
     A paper was published at AAMAS 2019 on this work.
-  pdf_file: "https://simonrey.fr/static/talks/SYSMICS2019.pdf"
+  pdf_file: "/assets/talks/SYSMICS2019.pdf"

@@ -13,7 +13,7 @@
     - type: "Publisher"
       url: "https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p2031.pdf"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/MREL23.pdf"
+      url: "/assets/publications/MREL23.pdf"
     - type: "Arxiv"
       url: "https://arxiv.org/abs/2205.07517"
 
@@ -32,7 +32,7 @@
     - type: "Publisher"
       url: "https://www.ifaamas.org/Proceedings/aamas2023/pdfs/p1400.pdf"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/BBLR23.pdf"
+      url: "/assets/publications/BBLR23.pdf"
 
 - authors:
     - name: "Simon Rey"
@@ -43,7 +43,7 @@
   year: 2023
   links:
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/ReMa23.pdf"
+      url: "/assets/publications/ReMa23.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/2303.00621"
 
@@ -56,7 +56,7 @@
   year: 2023
   links:
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/ReEn23.pdf"
+      url: "/assets/publications/ReEn23.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/2304.10940"
 
@@ -73,14 +73,14 @@
     - type: "Publisher"
       url: "https://link.springer.com/article/10.1007/s00355-023-01462-6"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/REH23.pdf"
+      url: "/assets/publications/REH23.pdf"
   comment: >
     This work has also been presented at the 8th International Workshop on Computational Social Choice
-    (COMSOC-2021), <a href="https://simonrey.fr/static/publications/REH20_comsoc.pdf">PDF File</a>.
+    (COMSOC-2021), <a href="/assets/publications/REH20_comsoc.pdf">PDF File</a>.
     <br>
     It also appears in the proceedings of the 17th international conference 
     on principles of knowledge representation and reasoning (KR-2020),
-    <a href="https://simonrey.fr/static/publications/REH20.pdf">PDF File</a>.
+    <a href="/assets/publications/REH20.pdf">PDF File</a>.
     <br>
     The poster presenting this work can be found
     <a href="http://www.simonrey.fr/static/posters/PBandJA_ComSoC.pdf">here</a>.
@@ -94,7 +94,7 @@
     - type: "Publisher"
       url: "https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1860.pdf"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/Rey22.pdf"
+      url: "/assets/publications/Rey22.pdf"
 
 - authors:
     - name: "Sirin Botan"
@@ -108,7 +108,7 @@
     - type: "Publisher"
       url: "https://www.ijcai.org/proceedings/2022/18"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/BRT22.pdf"
+      url: "/assets/publications/BRT22.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/2205.00881"
   comment: >
@@ -132,7 +132,7 @@
     - type: "Publisher"
       url: "https://link.springer.com/chapter/10.1007/978-3-031-20614-6_19"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/MSRE22.pdf"
+      url: "/assets/publications/MSRE22.pdf"
 
 - authors:
     - name: "Martin Lackner"
@@ -147,11 +147,11 @@
     - type: "Publisher"
       url: "https://www.ijcai.org/proceedings/2021/42"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/LMR21.pdf"
+      url: "/assets/publications/LMR21.pdf"
   comment: >
     This work has also been presented as an extended abstract at the 
     20th International Conference on Autonomous Agents and Multiagent 
-    Systems (AAMAS-2021), <a href="https://simonrey.fr/static/publications/LMR21_aamas.pdf">PDF File</a>.
+    Systems (AAMAS-2021), <a href="/assets/publications/LMR21_aamas.pdf">PDF File</a>.
     <br>
     The poster presenting this work can be found <a href="http://www.simonrey.fr/static/posters/PPB_IJCAI.pdf">here</a>.
 
@@ -168,7 +168,7 @@
     - type: "Publisher"
       url: "https://www.ijcai.org/proceedings/2021/52"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/REH21.pdf"
+      url: "/assets/publications/REH21.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/2010.10309"
 
@@ -186,7 +186,7 @@
     - type: "Publisher"
       url: "https://link.springer.com/article/10.1007%2Fs10458-021-09503-z"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/BMRS21.pdf"
+      url: "/assets/publications/BMRS21.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/1906.10250"
 
@@ -202,7 +202,7 @@
   year: 2020
   links:
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/BMRS20.pdf"
+      url: "/assets/publications/BMRS20.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/2002.11660"
 
@@ -217,7 +217,7 @@
     - type: "Publisher"
       url: "https://www.ijcai.org/Proceedings/2020/6"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/AR19.pdf"
+      url: "/assets/publications/AR19.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/1907.09279"
   comment: >
@@ -243,7 +243,7 @@
     - type: "Publisher"
       url: "http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p900.pdf"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/BBL+19.pdf"
+      url: "/assets/publications/BBL+19.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/1807.11919"
 
@@ -258,7 +258,7 @@
     - type: "Publisher"
       url: "http://www.ifaamas.org/Proceedings/aamas2019/pdfs/p1994.pdf"
     - type: "PDF"
-      url: "https://simonrey.fr/static/publications/GR19.pdf"
+      url: "/assets/publications/GR19.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/1901.09180"
   comment: >
