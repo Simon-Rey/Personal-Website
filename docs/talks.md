@@ -21,7 +21,7 @@ Here are few talks I've given, the slides may not be up to date! If you have any
 <td style="padding-right: 20px">
 <p>{{ talk.description | safe }}</p>
 </td>
-<td style="width: 85px;">
+<td style="width: 10ch;">
 {% if talk.pdf_file %}
 <span class="pdfButton">
 <a href="{{ talk.pdf_file }}" title="Link to the PDF file of the talk">PDF File</a>
