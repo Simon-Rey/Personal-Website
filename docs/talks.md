@@ -23,7 +23,7 @@ Here are few talks I've given, the slides may not be up to date! If you have any
 </td>
 <td style="width: 85px;">
 {% if talk.pdf_file %}
-<span id="pdfButton">
+<span class="pdfButton">
 <a href="{{ talk.pdf_file }}" title="Link to the PDF file of the talk">PDF File</a>
 </span>
 {% endif %}

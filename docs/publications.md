@@ -40,7 +40,7 @@ If something is not available please contact me!
 </div>
 <div class="publicationButtons">
 {% for link in publication.links %}
-<div id="{{ link.type | downcase | replace: ' ', '' }}Button">
+<div class="{{ link.type | downcase | replace: ' ', '' }}Button">
 <a href="{{ link.url }}" title="Link to the {{ link.type | downcase }} page of the publication">{{ link.type }}</a>
 </div>
 {% endfor %}

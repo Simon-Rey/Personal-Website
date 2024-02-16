@@ -2,6 +2,54 @@
 	--color-gray:#5D5D5D;
 	--color-orange:#FF8000;
 }
+/* =======
+Font Sizes
+======= */
+
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+input {
+	font-size: inherit;
+}
 
 /* ================
 Responsive behavior
@@ -22,26 +70,22 @@ Responsive behavior
 		display: block;
 		width: 100%;
 		margin: 0;
-		padding: 5px 0px;
+		padding: 5px 0;
 	}
 	#banner {
 		padding: 10px 20px;
 	}
 	html {
-		padding-left: 3%;
-		padding-right: 3%;
+		padding: 0;
 	}
 	main {
-		padding-top: 10px;
-		padding-right: 20px;
-		padding-left: 20px;
-		padding-bottom: 20px;
+		padding: 10px 20px 20px;
 	}
 	#newscontent {
 		padding: 10px 20px;
 	}
 	.publicationText {
-		padding: 5px 5px;
+		padding: 5px 20px 5px 5px;
 	}
 	.publicationButtons div {
 		display: block;
@@ -57,24 +101,18 @@ Responsive behavior
 	.menu a {
 		float: left;
 		margin: auto;
-		padding: 14px 0px;
-		width: 16.6666666%;
+		padding: 14px 0;
+		width: 20%;
 	}
 	#banner {
 		padding: 20px 50px;
 	}
 	html {
-		padding-left: 10%;
-		padding-right: 10%;
-	}
-	p {
-		font-size: 120%;
+		padding-left: 7%;
+		padding-right: 7%;
 	}
 	main {
-		padding-top: 20px;
-		padding-right: 50px;
-		padding-left: 50px;
-		padding-bottom: 50px;
+		padding: 20px 50px 50px;
 	}
 	#newsbox {
 		display: flex;
@@ -96,12 +134,12 @@ Responsive behavior
 	}
 	.publicationButtons div {
 		float: left;
-		margin: 0px 5px;
+		margin: 0 5px;
 	}
 }
 
 /* =============
-Main page layout 
+Main page layout
 ============= */
 
 html {
@@ -123,7 +161,7 @@ main {
 }
 
 /* =============================
-Header with the name and logo 
+Header with the name and logo
 ============================= */
 
 .detail-wrap {
@@ -137,6 +175,7 @@ Header with the name and logo
 	color: white;
 	font-size: 380%;
 	font-family: "newAlphabet", sans-serif;
+	margin-right: 20px;
 }
 
 #portrait {
@@ -170,7 +209,7 @@ Header with the name and logo
 }
 
 /* ===
-Titles 
+Titles
 === */
 
 h1 {
@@ -187,11 +226,7 @@ h1 a {
 h2 {
 	text-align: left;
 	color: var(--color-gray);
-	padding-top: 5px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	font-size: 130%;
+	padding: 5px 0 0;
 	border-top: 3px solid var(--color-orange);
 }
 
@@ -203,11 +238,10 @@ h2 a {
 h3 {
 	color: var(--color-gray);
 	text-align: center;
-	font-size: 150%;
 }
 
 /* ========
-Header menu 
+Header menu
 ======== */
 
 .menu-wrap {
@@ -225,7 +259,7 @@ Header menu
 	background-color: var(--color-gray);
 	overflow: auto;
 	text-align: center;
-	margin: 0px;
+	margin: 0;
 }
 
 /* Navigation links */
@@ -251,7 +285,7 @@ Footer menu
 	background: var(--color-gray);
 	width: 100%;
 	color: white;
-	margin: 0px;
+	margin: 0;
     display: inline-block;
     text-align: center;
 	border-top: 7px solid var(--color-gray);
@@ -271,12 +305,12 @@ Footer menu
 .footer > li > a {
 	padding: 5px 50px;
 	display:inline-block;
-	text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+	text-shadow: 0 1px 0 rgba(0,0,0,0.4);
 	margin: 0;
 }
 
 /* ===========
-Hyperref links 
+Hyperref links
 =========== */
 
 a {
@@ -306,10 +340,7 @@ a:hover {
 
 #news {
 	text-align: center;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 15px;
-	padding-bottom: 0px;
+	padding: 15px 0 0;
 	margin-top: 15px;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -318,8 +349,8 @@ a:hover {
 
 #news h3 {
 	color: var(--color-gray);
-	margin: 0px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	text-align: center;
 	font-size: 120%;
 }
@@ -327,7 +358,7 @@ a:hover {
 strong {
 	text-decoration: none;
 	color: var(--color-orange);
-	font-style: none;
+	font-style: normal;
 	font-weight: normal;
 }
 
@@ -335,10 +366,11 @@ strong {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 10px 0;
 }
 
 .publicationDiams {
-	padding-right: 10px; 
+	padding-right: 10px;
 	font-size: 120%;
 }
 
@@ -355,7 +387,7 @@ strong {
 	font-style: italic;
 }
 
-#pdfButton {
+.pdfButton {
 	background-color: #33A70D;
 	border-radius: 4px;
 	padding: 6px;
@@ -363,11 +395,11 @@ strong {
 	text-decoration: none;
 }
 
-#pdfButton a:hover {
+.pdfButton a:hover {
 	color: white;
 }
 
-#arxivButton {
+.arxivButton {
 	background-color: #b31b1b;
 	border-radius: 4px;
 	padding: 6px;
@@ -375,11 +407,11 @@ strong {
 	text-decoration: none;
 }
 
-#arxivButton a:hover {
+.arxivButton a:hover {
 	color: white;
 }
 
-#publisherButton {
+.publisherButton {
 	background-color: #039be5;
 	border-radius: 4px;
 	padding: 6px;
@@ -387,7 +419,7 @@ strong {
 	text-decoration: none;
 }
 
-#publisherButton a:hover {
+.publisherButton a:hover {
 	color: white;
 }
 
@@ -401,7 +433,7 @@ strong {
 
 .talkBox p {
 	margin-top: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 0;
 }
 
 .talkBox table {
