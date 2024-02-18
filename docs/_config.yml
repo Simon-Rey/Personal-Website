@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: COMSOC Website
+title: Simon Rey's Personnal Website
 email: s.j.rey@uva.nl
 description: >- # this means to ignore newlines until "baseurl:"
   Personal page of Simon Rey, Senior Scientific Programmer in Computational Social Choice at
