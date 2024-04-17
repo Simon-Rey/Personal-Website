@@ -1,4 +1,29 @@
 - authors:
+    - name: "Niclas Boehmer"
+      webpage: "https://sites.google.com/view/niclas-boehmer/home"
+    - name: "Piotr Faliszewski"
+      webpage: "https://home.agh.edu.pl/~faliszew/"
+    - name: "Łukasz Janeczko"
+    - name: "Andrzej Kaczmarczyk"
+      webpage: "https://akaczmarczyk.com/"
+    - name: "Grzegorz Lisowski"
+    - name: "Grzegorz Pierczyński"
+      webpage: "https://mimuw.edu.pl/~pierczynski/"
+    - name: "Simon Rey"
+    - name: "Dariusz Stolicki"
+      webpage: "https://cbip.uj.edu.pl/dstolicki"
+    - name: "Stanisław Szufa"
+      webpage: "https://szufa.simple.ink/"
+    - name: "Tomasz Wąs"
+      webpage: "https://www.mimuw.edu.pl/~twas/"
+  title: "Guide to Numerical Experiments on Elections in Computational Social Choice"
+  published_in: "arXiv Preprints"
+  year: 2024
+  links:
+    - type: "Arxiv"
+      url: "https://arxiv.org/abs/2402.11765"
+
+- authors:
     - name: "Jan Maly"
       webpage: "https://janmaly.de/"
     - name: "Simon Rey"
