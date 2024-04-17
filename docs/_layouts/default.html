@@ -24,16 +24,6 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/fonts.css"/>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-    {% if font == "na" %}
-        <style>
-            html {font-family: "newAlphabet", sans-serif;}
-        </style>
-    {% else %}
-        <style>
-            html {font-family: Roboto, sans-serif;}
-        </style>
-    {% endif %}
 </head>
 
 <body>
@@ -50,7 +40,9 @@
 					<p>{{ site.address | newline_to_br }}</p>
 					<p style="font-style: italic;">{{ site.email_address }}</p>
 				</div>
-				<img src="{{ site.baseurl }}/assets/portrait.JPG" height="220px" id='portrait' alt="Portrait of Simon Rey"/>
+				<a href="https://photo.simonrey.fr">
+                    <img src="{{ site.baseurl }}/assets/portrait.JPG" height="220px" id='portrait' alt="Portrait of Simon Rey"/>
+                </a>
 			</div>
 		</div>
 		<div class="menu-wrap">

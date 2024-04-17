@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: COMSOC Website
+title: Simon Rey's Personnal Website
 email: s.j.rey@uva.nl
 description: >- # this means to ignore newlines until "baseurl:"
   Personal page of Simon Rey, Senior Scientific Programmer in Computational Social Choice at
   the Institute for Language Logic and Computation (ILLC), Amsterdam.
-baseurl: "/Personal-Website" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://simonrey.fr/" # the base hostname & protocol for your site, e.g. http://example.com
 
 full_name: Simon Rey
