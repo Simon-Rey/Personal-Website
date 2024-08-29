@@ -17,9 +17,11 @@
     - name: "Tomasz Wąs"
       webpage: "https://www.mimuw.edu.pl/~twas/"
   title: "Guide to Numerical Experiments on Elections in Computational Social Choice"
-  published_in: "arXiv Preprints"
+  published_in: "Proceedings of the International Joint Conference on Artificial Intelligence (IJCAI)"
   year: 2024
   links:
+    - type: "Publisher"
+      url: "https://www.ijcai.org/proceedings/2024/0881.pdf"
     - type: "Arxiv"
       url: "https://arxiv.org/abs/2402.11765"
 
