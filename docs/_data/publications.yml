@@ -1,4 +1,18 @@
 - authors:
+    - name: "Simon Rey"
+    - name: "Ulle Endriss"
+      webpage: "https://staff.science.uva.nl/u.endriss/"
+  title: "A Note on How to Build a Conference Schedule: The Case of ECAI-2024"
+  published_in: "Zenodo"
+  year: 2024
+  links:
+    - type: "Publisher"
+      url: "https://doi.org/10.5281/zenodo.14019045"
+    - type: "PDF"
+      url: "/assets/publications/ReEn24.pdf"
+
+
+- authors:
     - name: "Niclas Boehmer"
       webpage: "https://sites.google.com/view/niclas-boehmer/home"
     - name: "Piotr Faliszewski"
