@@ -3,11 +3,7 @@ layout: default
 title: CV | Simon Rey
 ---
 
-# Curriculum Vitae
-
-The full CV in PDF can be downloaded below.
-
-<p style="text-align: center;"><span class="pdfButton"><a href="{{ site.baseurl }}/assets/CV_REY_Simon.pdf" title="Link to my full CV in PDF.">PDF File</a></span></p>
+# Bio
 
 ## Education
 <table class="cvTable">
@@ -50,9 +46,3 @@ Cachan, France.</p>
 Toulouse, France.</p>
 </td></tr>
 </tbody></table>
-
-## Languages
-
-- Dutch: *intermediate*
-- English: *fluent*
-- French: *native*
