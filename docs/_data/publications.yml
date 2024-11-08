@@ -1,4 +1,17 @@
 - authors:
+    - name: "Simon Rey"
+    - name: "Ulle Endriss"
+      webpage: "https://staff.science.uva.nl/u.endriss/"
+  title: "A Note on How to Build a Conference Schedule: The Case of ECAI-2024"
+  published_in: "Zenodo"
+  year: 2024
+  links:
+    - type: "Publisher"
+      url: "https://doi.org/10.5281/zenodo.14019045"
+    - type: "PDF"
+      url: "/assets/publications/ReEn24.pdf"
+
+- authors:
     - name: "Niclas Boehmer"
       webpage: "https://sites.google.com/view/niclas-boehmer/home"
     - name: "Piotr Faliszewski"
@@ -79,11 +92,13 @@
     - name: "Ulle Endriss"
       webpage: "https://staff.science.uva.nl/u.endriss/"
   title: "Epistemic Selection of Costly Alternatives: The Case of Participatory Budgeting"
-  published_in: "arXiv Preprints"
-  year: 2023
+  published_in: "Journal of Autonomous Agents and Multi-Agent Systems (JAAMAS)"
+  year: 2025
   links:
+    - type: "Publisher"
+      url: "https://link.springer.com/article/10.1007/s10458-024-09677-2"
     - type: "PDF"
-      url: "/assets/publications/ReEn23.pdf"
+      url: "/assets/publications/ReEn25.pdf"
     - type: "ArXiv"
       url: "https://arxiv.org/abs/2304.10940"
 

@@ -12,22 +12,45 @@ html {
   font-weight: 400;
   font-style: normal;
 }
-
 @media screen and (max-width: 480px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
 @media screen and (min-width: 768px) {
   html {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   html {
-    font-size: 20px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  html {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 3000px) {
+  html {
+    font-size: 28px;
+  }
+}
+
+@media screen and (min-width: 3500px) {
+  html {
+    font-size: 30px;
   }
 }
 
@@ -149,6 +172,9 @@ html {
 
 body {
 	margin: 0;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 #banner {
@@ -158,6 +184,7 @@ body {
 
 main {
 	background: white;
+	flex-grow: 1;
 }
 
 /* =============================
