@@ -21,7 +21,7 @@ title: Simon Rey | Cakes
 
 <div class="cakes-wrap">
 <div class="cake-wrap">
-<h3>Appel Crumble</h3>
+<h3>Apple Crumble</h3>
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2019.11.18.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
@@ -41,7 +41,7 @@ title: Simon Rey | Cakes
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2020.05.19.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
-<h3>Cherry Clafouti</h3>
+<h3>Cherry Clafoutis</h3>
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2020.09.09.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
@@ -57,7 +57,7 @@ title: Simon Rey | Cakes
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2021.02.10.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
-<h3>Black Berry Clafouti</h3>
+<h3>Blackberry Clafoutis</h3>
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2021.04.21.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
@@ -69,7 +69,7 @@ title: Simon Rey | Cakes
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2021.09.15.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
-<h3>Celebrating Sirin Carottes Cake</h3>
+<h3>Celebrating Sirin Carrot Cake</h3>
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2021.11.24.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
@@ -97,7 +97,7 @@ title: Simon Rey | Cakes
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2023.05.03.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
-<h3>Appel Taart</h3>
+<h3>Apple Pie</h3>
 <img src="https://staff.science.uva.nl/u.endriss/cakes/cake.2023.11.30.jpg" alt="cake" style="max-height: 25vh; max-width: 40vw;">
 </div>
 <div class="cake-wrap">
