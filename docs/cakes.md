@@ -12,14 +12,12 @@ title: Simon Rey | Cakes
 .cake-wrap {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    justify-items: center;
+    align-items: center;
 }
 .cake-wrap img {
-    max-height: 25vh;
+    max-height: 30vh;
     max-width: 40vw;
-    height: auto; /* Maintains aspect ratio */
-    width: auto;  /* Maintains aspect ratio */
 }
 </style>
 
