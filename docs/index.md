@@ -9,10 +9,13 @@ main_style: "padding: 0;"
 
 # Presentation
 
-I am a senior scientific programmer in the Collective Information project of 
+I used to be an academic researching questions related to the aggregation of preferences for collective decision-making.
+I have now changed to a completely different path, but will maintain this website for legacy purposes.
+
+In my last academic position, I worked a senior scientific programmer in the Collective Information project of 
 [Ulle Endriss](https://staff.science.uva.nl/u.endriss/ "Link to Ulle Endriss's personal page")
 at the [Institute for Logic, Language and Computation (ILLC)](http://illc.uva.nl "Link to the ILLC main page")
-at the University of Amsterdam in (surprisingly) Amsterdam, The Netherlands.
+at the University of Amsterdam located (surprisingly) in Amsterdam, The Netherlands.
 
 Before that, I did my PhD under the supervision of 
 [Ulle Endriss](https://staff.science.uva.nl/u.endriss/ "Link to Ulle Endriss's personal page"), 
@@ -29,7 +32,7 @@ related to the aggregation of preferences, both from a mathematical and from a c
 I mostly focused on participatory budgeting, a democratic tool used to allow citizens to vote on how
 to allocation public funds. I have also worked on other topics such as the fair allocation of
 indivisible items, or how to handle incomplete preferences. I developed several tools during my time 
-as a researcher: I am the main developer and maintainer of [PrefLib.org](https://www.preflib.org/), 
+as a researcher: I was the main developer and maintainer of [PrefLib.org](https://www.preflib.org/), 
 the [PaBuTools](https://pypi.org/project/pabutools/), among others.
 
 If you have no idea what social choice scientists do, the following video will offer you a glimpse
@@ -37,11 +40,6 @@ at the typical problems we study when it comes to participatory budgeting.
 
 <div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iSX90xJjSAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-
-Note that I am currently shifting towards a different direction and thus am not looking to start new
-collaborations. If you want to chat still, drop me an email at <a href="mailto:s.rey@uva.nl">s.rey@uva.nl</a>.
 </div>
 
 <div id="newscol">
