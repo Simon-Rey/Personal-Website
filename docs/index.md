@@ -41,6 +41,7 @@ at the typical problems we study when it comes to participatory budgeting.
 <div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iSX90xJjSAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+</div>
 
 <div id="newscol">
 <h2 style="text-align: center;">News</h2>
@@ -54,5 +55,4 @@ at the typical problems we study when it comes to participatory budgeting.
 </div> 
 {% endfor %}
 <div id="news"></div>
-</div>
 </div>
