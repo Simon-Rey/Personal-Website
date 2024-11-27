@@ -27,13 +27,9 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://simonrey.fr/" # the base hostname & protocol for your site, e.g. http://example.com
 
 full_name: Simon Rey
-email_address: s.j.rey@uva.nl
-position_title: Senior Scientific Programmer
-address: |
-  Office L6.36
-  LAB42, Science Park
-  Amsterdam
-  The Netherlands
+email_address:
+position_title: Retired Academic
+address:
 github_homepage: "https://github.com/Simon-Rey"
 scholar_homepage: "https://scholar.google.com/citations?user=sMgOkFwAAAAJ&hl=fr&oi=sra"
 dblp_homepage: "https://dblp.uni-trier.de/pid/224/0177.html"
