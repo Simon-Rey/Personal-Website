@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Simon Rey | Senior Scientific Programmer
+title: Simon Rey
 main_style: "padding: 0;"
 ---
 
