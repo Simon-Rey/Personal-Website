@@ -12,6 +12,30 @@
       url: "/assets/publications/ReEn24.pdf"
 
 - authors:
+    - name: "Simon Rey"
+    - name: "Ulle Endriss"
+      webpage: "https://staff.science.uva.nl/u.endriss/"
+  title: "The Game Academy: Learn while playing, and play while learning!"
+  published_in: "Proceedings of the International Conference on Autonomous Agents and Multiagent Systems (AAMAS), Demonstration Track"
+  year: 2025
+  links:
+    - type: "PDF"
+      url: "/assets/publications/ReEn25b.pdf"
+
+- authors:
+    - name: "Simon Rey"
+    - name: "Ulle Endriss"
+      webpage: "https://staff.science.uva.nl/u.endriss/"
+    - name: "Markus Utke"
+      webpage: "https://markus-utke.github.io/"
+  title: "Pabuviz.org: A Visualisation Platform to Explore Participatory Budgeting Elections - Demonstration Track"
+  published_in: "Proceedings of the International Conference on Autonomous Agents and Multiagent Systems (AAMAS), Demonstration Track"
+  year: 2025
+  links:
+    - type: "PDF"
+      url: "/assets/publications/URE25.pdf"
+
+- authors:
     - name: "Niclas Boehmer"
       webpage: "https://sites.google.com/view/niclas-boehmer/home"
     - name: "Piotr Faliszewski"
