@@ -28,13 +28,12 @@
 
 <div id='header'>
 	<div id='banner'>
-		<div class='detail-wrap'>
-			<div class='name'>
-				<a href="{{ '/' | relative_url }}" title="Link to main page">Simon Rey</a>
+		<div id='detail-wrap'>
+			<div id='name-wrap'>
+				<a id='banner-name' href="{{ '/' | relative_url }}" title="Link to main page">Simon Rey</a>
+				<a id="banner-email" href="mailto:me@reysimon.fr">me@reysimon.fr</a>
 			</div>
-			<div class="detailPortrait">
-				<div>
-				</div>
+			<div class="portrait-wrap">
 				<a href="https://photo.simonrey.fr">
                     <img src="{{ site.baseurl }}/assets/portrait.JPG" height="220px" id='portrait' alt="Portrait of Simon Rey"/>
                 </a>
@@ -55,58 +54,6 @@
 <main {% if page.main_style %} style="{{ page.main_style }}"{% endif %}>
 	{{ content }}
 </main>
-
-<div class="footer-wrap">
-	<ul class="footer">
-	{% if site.github_homepage %}
-		<li>
-			<a href="{{ site.github_homepage }}" title="Link to Simon Rey's GitHub page">
-				<div style="display: flex; align-items: center;">
-						<img src="{{ site.baseurl }}/assets/gitHubLogo.png" style="height: 1em;"
-						alt="GitHub Logo">
-					 	<span> &nbsp; GitHub </span>
-				</div>
-			</a>
-		</li>
-	{% endif %}
-
-	{% if site.scholar_homepage %}
-		<li>
-			<a href="{{ site.scholar_homepage }}" title="Link to Simon Rey's Google Scholar page">
-				<div style="display: flex; align-items: center;">
-						<img src="{{ site.baseurl }}/assets/googleScholarLogo.png" style="height: 1em;"
-						alt="Google Scholar Logo">
-					 	<span> &nbsp; Google Scholar </span>
-				</div>
-			</a>
-		</li>
-	{% endif %}
-
-	{% if site.dblp_homepage %}
-		<li>
-			<a href="{{ site.dblp_homepage }}" title="Link to Simon Rey's DBLP page">
-				<div style="display: flex; align-items: center;">
-						<img src="{{ site.baseurl }}/assets/dblpLogo.png" style="height: 1em;"
-						alt="DBLP Logo">
-					 	<span> &nbsp; DBLP </span>
-				</div>
-			</a>
-		</li>
-	{% endif %}
-
-	{% if site.orcid_homepage %}
-		<li>
-			<a href="{{ site.orcid_homepage }}" title="Link to Simon Rey's Orcid page">
-				<div style="display: flex; align-items: center;">
-						<img src="{{ site.baseurl }}/assets/orcidLogo.png" style="height: 1em;"
-						alt="Orcid Logo">
-					 	<span> &nbsp; Orcid </span>
-				</div>
-			</a>
-		</li>
-	{% endif %}
-	</ul>
-</div>
 
 </body>
 </html>

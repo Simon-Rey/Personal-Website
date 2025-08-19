@@ -1,5 +1,5 @@
 :root {
-	--color-gray:#5D5D5D;
+	--color-gray: #474747;
 	--color-orange:#FF8000;
 }
 
@@ -61,7 +61,7 @@ a {
 table {
     margin: auto;
     border-collapse: collapse;
-    width: 80%:
+    width: 80%;
 }
 
 .programme-line:not(:first-child) th, .programme-line:not(:first-child) td {

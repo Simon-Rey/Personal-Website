@@ -5,7 +5,6 @@ title: CV | Simon Rey
 
 # Bio
 
-## Education
 <table class="cvTable">
 <tbody><tr>
 <td><strong> ♦ </strong></td>

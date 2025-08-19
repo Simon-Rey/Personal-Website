@@ -25,11 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://simonrey.fr/" # the base hostname & protocol for your site, e.g. http://example.com
 
-github_homepage: "https://github.com/Simon-Rey"
-scholar_homepage: "https://scholar.google.com/citations?user=sMgOkFwAAAAJ&hl=fr&oi=sra"
-dblp_homepage: "https://dblp.uni-trier.de/pid/224/0177.html"
-orcid_homepage: "https://orcid.org/0000-0002-5170-0387"
-
 # Build settings
 theme: null
 
