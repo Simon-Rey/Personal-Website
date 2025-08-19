@@ -7,40 +7,16 @@ main_style: "padding: 0;"
 <div id="newsbox">
 <div id ="newscontent" style="line-height: 1.5; text-align: justify;" markdown="1">
 
-# Presentation
+Simon Rey here, a multifaceted individual who is always happy to explore new aspects of life. Some of them:
 
-I used to be an academic researching questions related to the aggregation of preferences for collective decision-making.
-I have now changed to a completely different path, but will maintain this website for legacy purposes.
-
-In my last academic position, I worked a senior scientific programmer in the Collective Information project of 
-[Ulle Endriss](https://staff.science.uva.nl/u.endriss/ "Link to Ulle Endriss's personal page")
-at the [Institute for Logic, Language and Computation (ILLC)](http://illc.uva.nl "Link to the ILLC main page")
-at the University of Amsterdam located (surprisingly) in Amsterdam, The Netherlands.
-
-Before that, I did my PhD under the supervision of 
-[Ulle Endriss](https://staff.science.uva.nl/u.endriss/ "Link to Ulle Endriss's personal page"), 
-[Jan Maly](https://janmaly.de/ "Link to Jan Maly's personal page"), and
-[Ronald de Haan](https://staff.science.uva.nl/r.dehaan/ "Link to Ronald de Haan's personal page").
-My thesis titled [Variations on Participatory Budgeting](/static/publications/Rey23.pdf) presents a wide range of approaches I used to analyse participatory budgeting.
-
-The field I worked in is called as 
-[Computational Social Choice](https://comsoc-community.org "Link to the Computational Social Choice websute").
-The typical problems arising in (computational) social choice concern the aggregation of individual
-opinions into a collective, such as when people vote in an election. I studied different questions 
-related to the aggregation of preferences, both from a mathematical and from a computational perspective.
-
-I mostly focused on participatory budgeting, a democratic tool used to allow citizens to vote on how
-to allocation public funds. I have also worked on other topics such as the fair allocation of
-indivisible items, or how to handle incomplete preferences. I developed several tools during my time 
-as a researcher: I was the main developer and maintainer of [PrefLib.org](https://www.preflib.org/), 
-the [PaBuTools](https://pypi.org/project/pabutools/), among others.
-
-If you have no idea what social choice scientists do, the following video will offer you a glimpse
-at the typical problems we study when it comes to participatory budgeting.
-
-<div class="videoWrapper">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iSX90xJjSAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div id="life-aspects-list">
+<div class="life-aspect-header">Woodworking</div><div class="life-aspect-text">I currently work as a furniture maker at <a href="https://reifier.nl" alt="Link to Réifier, furniture making company in Amsterdam.">Réifier</a>, reach out if you're looking for custom shelves.</div>
+<div class="life-aspect-header">Programming</div><div class="life-aspect-text"> I also sell my services as freelance programmer with a special interest for theoretic computer science related-projects. Do you have a cool idea for an outreach website but don't have the time to develop it? Reach out, I'll happily do it for you.</div>
+<div class="life-aspect-header">Academia</div><div class="life-aspect-text"> I used to be an academic researching questions related to the aggregation of preferences for collective decision-making. You can find all about it on this website.</div>
+<div class="life-aspect-header">Photography</div><div class="life-aspect-text"> I love to explore the artistic side of life, through the design of furniture, but also through the <a href="https://photos.simonrey.fr" alt="Link to the photo website of Simon Rey">lens of my cameras</a>.</div>
+<div class="life-aspect-header">Consumerism</div><div class="life-aspect-text"> Ever been curious about what you consume and how worth it is each item you buy? I am, check this out at the <a href="https://petitbonhomme.eu/" alt="Link to the website Petit Bonhomme Simon.">Petit Bonhomme Simon</a>.</div>
 </div>
+
 </div>
 
 <div id="newscol">

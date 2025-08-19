@@ -12,6 +12,7 @@ html {
   font-weight: 400;
   font-style: normal;
 }
+
 @media screen and (max-width: 480px) {
   html {
     font-size: 16px;
@@ -75,7 +76,7 @@ input {
 }
 
 /* ================
-Responsive behavior
+Responsive behaviour
 ================ */
 
 @font-face {
@@ -94,9 +95,6 @@ Responsive behavior
 		width: 100%;
 		margin: 0;
 		padding: 5px 0;
-	}
-	#banner {
-		padding: 10px 20px;
 	}
 	html {
 		padding: 0;
@@ -126,9 +124,6 @@ Responsive behavior
 		margin: auto;
 		padding: 14px 0;
 		width: 20%;
-	}
-	#banner {
-		padding: 20px 50px;
 	}
 	html {
 		padding-left: 7%;
@@ -178,7 +173,7 @@ body {
 }
 
 #banner {
-	background: var(--color-gray);
+    border-top: 10px solid var(--color-gray);
 	color: white;
 }
 
@@ -195,11 +190,12 @@ Header with the name and logo
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	margin: 20px 0;
 }
 
 .name {
 	font-weight: bold;
-	color: white;
+	color: var(--color-gray);
 	font-size: 380%;
 	font-family: "newAlphabet", sans-serif;
 	margin-right: 20px;
@@ -275,7 +271,6 @@ Header menu
 	background: var(--color-gray);
 	width: 100%;
 	color: white;
-	margin-top: 20px;
 	border-top: 7px solid var(--color-orange);
 	border-bottom: 7px solid var(--color-orange);
     display: inline-block;
@@ -291,7 +286,6 @@ Header menu
 
 /* Navigation links */
 .menu a {
-	/*float: left;*/
 	transition:all linear 0.1s;
 	text-decoration: none;
 	color:white;
@@ -349,6 +343,10 @@ a:hover {
 	color: var(--color-orange);
 }
 
+/* =======
+Index Page
+======= */
+
 #newscol h2 {
 	border: none;
 	font-size: 130%;
@@ -380,6 +378,22 @@ a:hover {
 	padding: 0;
 	text-align: center;
 	font-size: 120%;
+}
+
+#life-aspects-list {
+    display: grid;
+    width: 100%;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.life-aspect-header {
+    background: var(--color-gray);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 1em;
+    text-align: center;
 }
 
 strong {
